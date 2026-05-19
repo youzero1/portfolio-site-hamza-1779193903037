@@ -36,7 +36,15 @@ export default function About() {
             </div>
 
             <div className={styles.avatar}>
-              <div className={styles.avatarInner}>AC</div>
+              <div className={styles.avatarRing}>
+                <img
+                  className={styles.avatarImg}
+                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=600&h=600&fit=crop&crop=faces"
+                  alt="Portrait of Alex"
+                  loading="lazy"
+                />
+                <span className={styles.avatarStatus} aria-label="Available" />
+              </div>
             </div>
           </div>
         </div>
